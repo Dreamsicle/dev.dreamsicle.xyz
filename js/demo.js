@@ -13,6 +13,11 @@ function randString() {
   return text;
 }
 
-var pattern = GeoPattern.generate(randString(), {color: randColor()})
+var sessionRandColor = randColor()
+
+var pattern = GeoPattern.generate(randString(), {color: sessionRandColor})
 
 document.getElementById("header").style.backgroundImage = pattern.toDataUrl()
+
+$('.accentBG').css('background-color', sessionRandColor)
+$('.accentColor').css('color', sessionRandColor)
