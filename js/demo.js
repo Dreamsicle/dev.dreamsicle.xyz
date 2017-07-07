@@ -1,5 +1,5 @@
 function randColor() {
-	var colors = ['#ffbc42', '#e67216', '#028090', '#20BF55', '#C5283D', '#930E67', '#596058']
+	var colors = ['#ffbc42', '#e67216', '#028090', '#20BF55', '#C5283D', '#930E67', '#596058', '#A4A8A3']
 	return colors[Math.floor(Math.random() * colors.length)]
 }
 
