@@ -65,7 +65,7 @@ small, .font_small {font-size: 0.667em;}
     background-attachment: fixed;
     box-shadow: inset 0px -42px 42px -42px rgba(0,0,0,0.75);
     width: 100vw;
-    height: 25em
+    height: 25em;
 }
 
 #header h1 {
