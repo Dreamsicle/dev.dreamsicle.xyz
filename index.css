@@ -79,10 +79,15 @@ small, .font_small {font-size: 0.667em;}
     background-color: #FFE1A8;
     margin: 5px;
     text-align: center;
+    flex: 10 0 auto
 }
 
 .purpleBG {
     background-color: #930E67 !important
+}
+
+.blueBG {
+    background-color: #028090 !important;
 }
 
 /* unvisited link */
